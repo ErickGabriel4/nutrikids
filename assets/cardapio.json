@@ -1,0 +1,62 @@
+[
+  {
+    "data": "17/06/2025",
+    "cafe": "Pão integral com leite",
+    "almoco": "Arroz, feijão, frango grelhado, legumes",
+    "lanche": "Fruta da estação"
+  },
+  {
+    "data": "18/06/2025",
+    "cafe": "Tapioca com queijo e suco",
+    "almoco": "Macarrão com carne moída e brócolis",
+    "lanche": "Bolo de cenoura e suco natural"
+  },
+  {
+    "data": "19/06/2025",
+    "cafe": "Cuscuz com ovo e chá",
+    "almoco": "Arroz, feijão preto, peixe assado, salada verde",
+    "lanche": "Maçã e biscoito integral"
+  },
+  {
+    "data": "20/06/2025",
+    "cafe": "Pão com margarina e achocolatado",
+    "almoco": "Purê de batata, frango ao molho e cenoura ralada",
+    "lanche": "Suco de laranja e biscoito de polvilho"
+  },
+  {
+    "data": "21/06/2025",
+    "cafe": "Leite com aveia e banana",
+    "almoco": "Arroz, feijão, carne de panela e beterraba cozida",
+    "lanche": "Bolo de milho e chá de erva-doce"
+  },
+  {
+    "data": "24/06/2025",
+    "cafe": "Iogurte natural com frutas",
+    "almoco": "Macarrão ao sugo, carne desfiada e abobrinha",
+    "lanche": "Pão de queijo e suco de uva"
+  },
+  {
+    "data": "25/06/2025",
+    "cafe": "Cereal com leite",
+    "almoco": "Arroz integral, feijão, frango cozido e couve refogada",
+    "lanche": "Banana e biscoito de aveia"
+  },
+  {
+    "data": "26/06/2025",
+    "cafe": "Pão com requeijão e suco de caju",
+    "almoco": "Escondidinho de carne com salada de alface",
+    "lanche": "Gelatina com frutas"
+  },
+  {
+    "data": "27/06/2025",
+    "cafe": "Leite com chocolate e pão doce",
+    "almoco": "Arroz, feijão, omelete e salada de pepino",
+    "lanche": "Pipoca e suco de maracujá"
+  },
+  {
+    "data": "28/06/2025",
+    "cafe": "Torradas com manteiga e chá de camomila",
+    "almoco": "Arroz com lentilha, frango grelhado e cenoura cozida",
+    "lanche": "Bolo simples e suco natural"
+  }
+]
