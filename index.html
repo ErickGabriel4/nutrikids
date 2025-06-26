@@ -2,10 +2,10 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>NutriKids - Início</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css" >
 
 </head>
 
@@ -26,19 +26,19 @@
   <main>
     <section class="intro">
       <h2>Consultar Cardápio por Data</h2>
-      <input type="date" id="dataBusca" />
+      <input type="date" id="dataBusca" >
       <button onclick="buscarCardapio()">Buscar</button>
     </section>
 
-    <section id="cardapio-container" class="cards"></section>
+    <div id="cardapio-container" class="cards"></div>
 
     <section class="crud">
       <h2>Gerenciar Cardápios</h2>
       <form id="formCardapio">
-        <label>Data: <input type="date" id="data" required /></label>
-        <label>Café da Manhã: <input type="text" id="cafe" required /></label>
-        <label>Almoço: <input type="text" id="almoco" required /></label>
-        <label>Lanche: <input type="text" id="lanche" required /></label>
+        <label>Data: <input type="date" id="data" required ></label>
+        <label>Café da Manhã: <input type="text" id="cafe" required ></label>
+        <label>Almoço: <input type="text" id="almoco" required ></label>
+        <label>Lanche: <input type="text" id="lanche" required ></label>
         <button type="submit">Salvar Cardápio</button>
       </form>
 
@@ -60,7 +60,7 @@
   <footer>
     <p>&copy; 2025 NutriKids. Todos os direitos reservados.</p>
   </footer>
-  <script type="module" src="js/script.js" defer></script>
+  <script src="js/script.js" type="module"></script>
 </body>
 
 </html>
