@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultar Cardápio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/consulta.js" ></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>NutriKids</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="consulta-cardapios.html">Consultar Cardápio</a></li>
+          <li><a href="gerencia-cardapios.html">Gerenciar Cardápios</a></li>
+          <li><a href="contato.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Consultar Cardápio por Data</h2>
+      <input type="date" id="dataBusca">
+      <button onclick="buscarCardapio()">Buscar</button>
+    </section>
+
+    <div id="cardapio-container" class="cards"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NutriKids. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

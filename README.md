@@ -11,7 +11,7 @@
 
 ## 📄 Funcionalidades
 * Busca dos cardápios por data.
-* Permitir ao nutricionista cadastrar um novo cardápio
+* Permitir ao nutricionista cadastrar e excluir um novo cardápio
 *
 
 

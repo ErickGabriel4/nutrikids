@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato - NutriKids</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <div class="container">
       <h1>NutriKids</h1>
-      <nav>
+       <nav>
         <ul>
           <li><a href="index.html">Início</a></li>
           <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="consulta-cardapios.html">Consultar Cardápio</a></li>
+          <li><a href="gerencia-cardapios.html">Gerenciar Cardápios</a></li>
           <li><a href="contato.html">Fale Conosco</a></li>
         </ul>
       </nav>
@@ -43,10 +47,11 @@
   </footer>
 
   <script>
-    document.getElementById("form-contato").addEventListener("submit", function(e) {
+    document.getElementById("form-contato").addEventListener("submit", function (e) {
       e.preventDefault();
       alert("Mensagem enviada com sucesso!");
     });
   </script>
 </body>
+
 </html>

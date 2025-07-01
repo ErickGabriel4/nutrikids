@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciar Cardápios</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/gerencia.js" ></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>NutriKids</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="consulta-cardapios.html">Consultar Cardápio</a></li>
+          <li><a href="gerencia-cardapios.html">Gerenciar Cardápios</a></li>
+          <li><a href="contato.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="crud">
+      <h2>Gerenciar Cardápios</h2>
+      <form id="formCardapio">
+        <label>Data: <input type="date" id="data" required></label>
+        <label>Café da Manhã: <input type="text" id="cafe" required></label>
+        <label>Almoço: <input type="text" id="almoco" required></label>
+        <label>Lanche: <input type="text" id="lanche" required></label>
+        <button type="submit">Salvar Cardápio</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th><th>Café</th><th>Almoço</th><th>Lanche</th><th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaCardapios"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NutriKids. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
