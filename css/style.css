@@ -91,6 +91,8 @@ footer {
   }
 }
 
+
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -143,8 +145,5 @@ table button:hover {
   background-color: #c0392b;
 }
 
-  .card {
-    width: 90%;
-  }
 
 
