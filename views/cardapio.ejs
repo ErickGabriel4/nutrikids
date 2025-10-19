@@ -1,0 +1,28 @@
+<%- include("layout", { body: `
+  <section>
+    <h2>Cadastro de Cardápio</h2>
+    <% if (typeof error !== "undefined") { %>
+      <div class="alert"><%= error %></div>
+    <% } %>
+    <form action="/cardapio/novo" method="POST">
+      <label>Nome: <input type="text" name="nome" required></label>
+      <label>Descrição: <input type="text" name="descricao" required></label>
+      <label>Calorias: <input type="number" name="calorias" required></label>
+      <label>Data: <input type="date" name="data_cardapio" required></label>
+      <button type="submit">Salvar</button>
+    </form>
+
+    <h3>Cardápios Cadastrados</h3>
+    <table>
+      <tr><th>Nome</th><th>Descrição</th><th>Calorias</th><th>Data</th></tr>
+      <% cardapios.forEach(c => { %>
+        <tr>
+          <td><%= c.nome %></td>
+          <td><%= c.descricao %></td>
+          <td><%= c.calorias %></td>
+          <td><%= new Date(c.data).toLocaleDateString("pt-BR") %></td>
+        </tr>
+      <% }) %>
+    </table>
+  </section>
+`}) %>

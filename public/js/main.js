@@ -1,0 +1,1 @@
+console.log("NutriKids Front ativo!");

@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+}
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.alert {
+  background: #ffdddd;
+  border-left: 4px solid #f44336;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
