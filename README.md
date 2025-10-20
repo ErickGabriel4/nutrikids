@@ -9,4 +9,4 @@ Sistema de gestão de cardápios e alimentação infantil para creches, refatora
 - Joi
 - MySQL (mysql2/promise)
 
-GITHUB
+GITHUB : https://github.com/ErickGabriel4/nutrikids
