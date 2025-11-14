@@ -1,8 +1,30 @@
- <%- include("layout", { body: `
-  <section class='home'>
-    <h2>Bem-vindo(a) ao NutriKids!</h2>
-    <p>Gerencie cardápios, restrições e refeições das crianças de forma simples e eficiente.</p>
-  </section>
-`}) %>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= title || "NutriKids" %></title>
+  <link rel="stylesheet" texten="text/css" href="/css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🍎 NutriKids</h1>
+    <nav>
+      <a href="/">Início</a>
+      <a href="/cardapio">Cardápios</a>
+    </nav>
+  </header>
+  <main>
+    <section class='home'>
+      <h2>Bem-vindo(a) ao NutriKids!</h2>
+      <p>Gerencie cardápios, restrições e refeições das crianças de forma simples e eficiente.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <%= new Date().getFullYear() %> NutriKids - Sistema de Gestão Alimentar Infantil</p>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
 
 
