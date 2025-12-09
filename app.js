@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import indexRoutes from "./routes/indexRoute.js";
 import cardapioRoutes from "./routes/cardapioRoute.js";
+import authRoutes from "./routes/authRoute.js";
 
 dotenv.config();
 const app = express();
@@ -21,6 +22,7 @@ app.use(bodyParser.json());
 // Routes
 app.use("/", indexRoutes);
 app.use("/cardapio", cardapioRoutes);
+app.use("/auth", authRoutes);
 
 export default app;
 
